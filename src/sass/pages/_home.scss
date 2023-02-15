@@ -1,0 +1,67 @@
+ 
+    .content{
+        @include home_flex;
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        height: 400px;
+        .content_about{
+            padding-left: 20em;
+            @include responsive1{
+                padding-left: 10em;
+                
+            }
+            @include responsive2{
+                padding-left: 6em;
+                
+            }
+            @include responsive3{
+                padding-left: 12em;
+                
+            }
+            
+            .heading{
+                margin-bottom: 20px;
+            }
+            .content_body{
+                font-size: 22px;
+                margin-bottom: 20px;
+                @include responsive2{
+                    margin-bottom: 30px;
+                    
+                }
+                
+            }
+            .btn_todo{
+                color: #fff;
+                background: linear-gradient(to right, rgba(140, 174, 206, 0), rgb(0, 255, 179));
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+        }
+        .content_image{
+            padding-right: 20em;
+            @include responsive1{
+                padding-right: 10em;
+                
+            }
+            @include responsive2{
+                padding-right: 6em;
+                
+            }
+            .background_image{ 
+                height: 200px;
+             width: 200px;
+             
+             @include responsive3{
+                display: none;
+                
+            }
+            }
+         }
+    }
+   
+ 

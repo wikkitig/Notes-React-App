@@ -1,0 +1,14 @@
+ @mixin grid_notes_List{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+ 
+ }
+
+ @mixin home_flex{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ 
