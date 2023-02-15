@@ -3,6 +3,7 @@
   
     margin-top: 20px;
     padding-left: 40px;
+
     @include tablet{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -17,9 +18,10 @@
     }
     @include mobile2{
      
-        padding-left: 80px;
+        padding-left: 40px;
      
     }
+     
     .note_list_item{
 
 
@@ -42,6 +44,7 @@
         // width: 300px;
         // background-color: greenyellow;
         // margin-top: 20px;
+        
         .list_item_body{
             // background-color: bisque;
             // display: flex;

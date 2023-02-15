@@ -42,3 +42,24 @@
         
     }
 }
+@mixin responsive4{
+    @media screen and (max-width:446px) {
+        @content;
+        
+    }
+}
+
+@mixin responsive5{
+    @media screen and (max-width:374px) {
+        @content;
+        
+    }
+}
+@mixin responsive6{
+    @media screen and (max-width:352px) {
+        @content;
+        
+    }
+}
+
+

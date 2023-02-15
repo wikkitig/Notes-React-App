@@ -19,6 +19,26 @@
                 padding-left: 12em;
                 
             }
+
+            @include responsive4{
+                padding-left: 8em;
+                
+            }
+
+            @include responsive5
+            {
+                padding-left: 6em;
+                
+            }
+
+            @include responsive6
+            {
+                padding-left: 5em;
+                
+            }
+
+
+            
             
             .heading{
                 margin-bottom: 20px;
