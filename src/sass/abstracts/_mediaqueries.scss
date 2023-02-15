@@ -56,7 +56,7 @@
     }
 }
 @mixin responsive6{
-    @media screen and (max-width:352px) {
+    @media screen and (max-width:255px) {
         @content;
         
     }

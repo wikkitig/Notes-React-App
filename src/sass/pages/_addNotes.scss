@@ -9,6 +9,14 @@
         border-radius: 5px;
         border: none;
 
+        @include responsive6{
+            margin-top: 10px;
+            padding-left: 60px;
+     
+            font-size: 16px;
+         
+        }
+
     }
 
 }

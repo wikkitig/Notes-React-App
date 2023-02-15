@@ -33,7 +33,11 @@
 
             @include responsive6
             {
-                padding-left: 5em;
+                display: flex;
+                flex-direction: column;
+                padding-left: 39px;
+                justify-content: none;
+                
                 
             }
 
@@ -50,6 +54,10 @@
                     margin-bottom: 30px;
                     
                 }
+                @include responsive6
+                {
+                    font-size: 16px;
+                }
                 
             }
             .btn_todo{
@@ -60,6 +68,13 @@
                 letter-spacing: 2px;
                 padding: 10px 20px;
                 border-radius: 5px;
+                @include responsive6
+                {
+                //    background-color: red;
+                   padding: 10px 5px;
+                    // padding: 10px 10px;
+                    // border-radius: 5px;
+                }
             }
         }
         .content_image{
@@ -80,6 +95,13 @@
                 display: none;
                 
             }
+            @include responsive6
+            {
+                padding-right: 1px;
+                
+                
+            }
+
             }
          }
     }
