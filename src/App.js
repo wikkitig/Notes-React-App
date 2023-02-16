@@ -9,15 +9,11 @@ import Footer from "./components/Footer";
 function App() {
   const [notesList, SetnotesList] = useState([
     {
-      content: "hi there",
+      content: "First Entry",
       date: "1.12.2022",
     },
     {
-      content: "bye there",
-      date: "11.12.2022",
-    },
-    {
-      content: "bye there",
+      content: "Complete the project",
       date: "11.12.2022",
     },
   ]);
